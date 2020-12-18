@@ -563,18 +563,18 @@ a {
   background-color: #63cc82;
 }
 
-/* line 62, ../../../Desktop/projects/web style guide/web-style-guide/scss/component/_grid.scss */
-.theme.col-10 .theme.col-11 {
+/* line 63, ../../../Desktop/projects/web style guide/web-style-guide/scss/component/_grid.scss */
+.theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 66, ../../../Desktop/projects/web style guide/web-style-guide/scss/component/_grid.scss */
-.theme.col-10 .theme.col-12 {
+/* line 67, ../../../Desktop/projects/web style guide/web-style-guide/scss/component/_grid.scss */
+.theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 70, ../../../Desktop/projects/web style guide/web-style-guide/scss/component/_grid.scss */
-.theme.col-10 .card {
+/* line 71, ../../../Desktop/projects/web style guide/web-style-guide/scss/component/_grid.scss */
+.card {
   flex-basis: 100%;
 }
 
