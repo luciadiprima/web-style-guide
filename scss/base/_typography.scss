@@ -1,5 +1,47 @@
-// font family
+//base
 
-//font size
 
-//font weight
+* {
+    font-family: 'Lato', sans-serif;
+    color: $font-color;
+    box-sizing: border-box;
+  }
+  
+  p {
+    line-height: 1.45em;
+  }
+  
+  a {
+    text-decoration: $text-deco;
+  }
+  
+  
+  /* ============================================= */
+  /*              Typography                       */
+  /* ============================================= */
+  
+  .headline-primary {
+    color: $headline-primary;
+    margin-left: 10px;
+  }
+  
+  .headline-secondary {
+    font-weight: $font-weight;
+    color: #777;
+  }
+  
+  .link {
+    color: $btn-default;
+    font-weight: 700;
+  }
+  
+  .blockquote {
+    font-size: 1.5em;
+    font-weight: $font-weight;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $headline-primary;
+    border-radius: 5px;
+  }
+  
