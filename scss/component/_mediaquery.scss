@@ -1,19 +1,17 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $brk-md) {
 
     .container {
       max-width: 1400px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include margin-auto;
     }
     
     .centered {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include margin-auto;
     }
     
     .row {
@@ -98,8 +96,7 @@
     }
     
     .logo {
-      margin-left: initial;
-      margin-right: initial;
+      @include margin-initial;
     }
     
     }
